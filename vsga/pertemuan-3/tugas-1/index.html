@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+
+    <title>Tugas Form Inline dan Horizontal</title>
+  </head>
+
+  <div class="container my-5">
+    <form class="d-flex justify-content-between">
+      <div class="mb-3 d-flex align-items-center gap-3">
+        <label for="exampleInputEmail1">Email:</label>
+        <input
+          placeholder="Enter email"
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3 d-flex align-items-center gap-3">
+        <label for="exampleInputPassword1">Password:</label>
+        <input
+          placeholder="Enter password"
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <div class="mb-3 d-flex align-items-center gap-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary px-4">Submit</button>
+    </form>
+  </div>
+  <body>
+    <script src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../jquery/jquery.js"></script>
+  </body>
+</html>

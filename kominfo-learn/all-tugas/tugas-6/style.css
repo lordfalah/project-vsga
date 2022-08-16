@@ -1,0 +1,56 @@
+body {
+  background: cyan;
+}
+
+form {
+  width: 205px;
+  margin: auto;
+  background: #3e3e3e;
+  border-radius: 1%;
+  box-shadow: 0px 3px 8px #000;
+}
+input[type="text"] {
+  width: 196px;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 18px;
+  color: #fff;
+  background: none;
+}
+td {
+  padding: 0px;
+}
+button {
+  border: none;
+  padding: 20px;
+  width: 100%;
+  cursor: pointer;
+  color: grey;
+  transition: ease 0.5s;
+  background: none;
+}
+button:hover {
+  background: grey;
+  color: #fff;
+}
+h2 {
+  font-family: "Encode Sans Condensed", sans-serif;
+  color: #666;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 6px;
+}
+.orange {
+  color: orange;
+  text-align: justify;
+}
+h1 {
+  font-family: "Encode Sans Condensed", sans-serif;
+  color: black;
+  font-size: 29px;
+  border-bottom: 3px solid #fff;
+}
+div {
+  width: 200px;
+  margin: auto;
+}
